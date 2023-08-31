@@ -1,2 +1,6 @@
 # ITS1119_Assignment_06
-UI/UX for pos system,  using CSS &amp; HTML
+UI/UX for pos system,  using CSS and HTML
+
+Site map  : https://www.gloomaps.com/aR3esh7bnd
+Wireframe : 
+Mockup    : 
