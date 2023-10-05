@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Order</title>
+    <link rel="stylesheet" href="./assests/bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/normalize.css">
+    <link rel="stylesheet" href="assests/css/style_order.css">
+    <link rel="icon" type="image/x-icon" href="/assests/images/favicon.ico">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<header id="header1">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/assests/images/lavazza.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                LAVAZZA
+            </a>
+
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer.html">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="item.html">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="order.html">Order</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+
+< class="container">
+<!--    <div id="row1">-->
+    <div class="row">
+        <!--        <div id="frame">-->
+        <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+            <form action="" method="post" target="_blank">
+                <h6 style="color: white">Invoice details</h6>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingId" placeholder="ID">
+                    <label for="floatingId">Order Code</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="date" class="form-control" id="floatingName" placeholder="Name">
+                    <label for="floatingName">Date</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingContact" placeholder="Contact">
+                    <label for="floatingContact">Customer ID</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingAdd" placeholder="Address">
+                    <label for="floatingAdd">Customer Name</label>
+                </div>
+                <div id="divBtn" class="mt-3 mb-4">
+                    <button type="button" class="btn btn-outline-light btn-sm">Search</button>
+                    <button type="reset" class="btn btn-outline-light btn-sm">Reset</button>
+                    <button type="button" class="btn btn-outline-light btn-sm">Delete</button>
+                    <button type="button" class="btn btn-outline-light btn-sm">Save</button>
+                </div>
+            </form>
+
+            <!--            </div>-->
+        </div>
+
+        <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+
+            <form action="" method="post" target="_blank">
+                <h6 style="color: white">Items</h6>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control form-control-sm" id="floatingId2" placeholder="ID">
+                    <label for="floatingId2">Item Code</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingName2" placeholder="Name">
+                    <label for="floatingName2">Item</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control form-control-sm" id="floatingContact2" placeholder="Contact">
+                    <label for="floatingContact2">Unit Price</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="number" class="form-control form-control-sm" id="floatingAdd2" placeholder="Address">
+                    <label for="floatingAdd2">Qty</label>
+                </div>
+                <div id="divBtn2" class="mt-3 mb-4">
+                    <button type="button" class="btn btn-outline-light btn-sm">Add to cart</button>
+                </div>
+            </form>
+            <!--            </div>-->
+        </div>
+
+        <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+
+            <form action="" method="post" target="_blank">
+                <br>
+                <h4 style="color: white">TOTAL :</h4>
+                <br>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control form-control-sm" id="floatingId3" placeholder="ID">
+                    <label for="floatingId3">Cash</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingName3" placeholder="Name">
+                    <label for="floatingName3">Balance</label>
+                </div>
+                <div id="divBtn3" class="mt-3 mb-4">
+                    <button type="button" class="btn btn-outline-light btn-sm">Purchase</button>
+                </div>
+            </form>
+            <!--            </div>-->
+        </div>
+
+       </div>
+<!--    </div>-->
+
+<table class="table table-bordered table-hover table-striped table-primary table-pre-scrollable" id="tb1">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Contact</th>
+        <th scope="col">Address</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td>USA</td>
+        <td>@twitter</td>
+    </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>Larry the Bird</td>
+        <td>USA</td>
+        <td>@twitter</td>
+    </tr>
+    </tbody>
+</table>
+
+    <div class="row">
+
+    </div>
+
+   </div>
+
+
+
+
+
+
+
+<!--<img src="./assests/images/item.png" class="img-fluid" alt="..." id="imgCus">-->
+
+<!--<table class="table table-bordered table-hover table-striped table-primary" id="tb1">-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th scope="col">Item Code</th>-->
+<!--        <th scope="col">Item</th>-->
+<!--        <th scope="col">Unit Price</th>-->
+<!--        <th scope="col">Qty</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr>-->
+<!--        <th scope="row">1</th>-->
+<!--        <td>Mark</td>-->
+<!--        <td>Otto</td>-->
+<!--        <td>@mdo</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <th scope="row">2</th>-->
+<!--        <td>Jacob</td>-->
+<!--        <td>Thornton</td>-->
+<!--        <td>@fat</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <th scope="row">3</th>-->
+<!--        <td>Larry the Bird</td>-->
+<!--        <td>USA</td>-->
+<!--        <td>@twitter</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <th scope="row">3</th>-->
+<!--        <td>Larry the Bird</td>-->
+<!--        <td>USA</td>-->
+<!--        <td>@twitter</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+
+<!--<div id="frame1">-->
+
+<!--    <form action="">-->
+
+<!--    <div class="row g-2">-->
+<!--        <div class="col-auto">-->
+<!--            <label for="oCode" class="col-form-label" style="color: white;">Order Code</label>-->
+<!--        </div>-->
+<!--        <div class="col-auto">-->
+<!--            <input type="text" id="oCode" class="form-control form-control-sm">-->
+<!--        </div>-->
+<!--        <div class="col-auto">-->
+<!--        </div>-->
+
+<!--        <div class="col-auto">-->
+<!--            <label for="oCode" class="col-form-label" style="color: white;">Order Code</label>-->
+<!--        </div>-->
+<!--        <div class="col-auto">-->
+<!--            <input type="text" id="date" class="form-control form-control-sm">-->
+<!--        </div>-->
+
+<!--    </div>-->
+
+<!--    </form>-->
+
+<!--</div>-->
+
+<!--<div id="frame2"></div>-->
+
+<!--<div id="frame3"></div>-->
+
+</body>
+</html>

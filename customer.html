@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Manage Customer</title>
+    <link rel="stylesheet" href="./assests/bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/normalize.css">
+    <link rel="stylesheet" href="assests/css/style_customer.css">
+    <link rel="icon" type="image/x-icon" href="/assests/images/favicon.ico">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+</head>
+<body>
+<header id="header1">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/assests/images/lavazza.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                LAVAZZA
+            </a>
+
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="customer.html">Customer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="item.html">Item</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+
+<div class="container">
+    <div class="row">
+        <!--        <div id="frame">-->
+        <div class="col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+
+            <form action="" method="post" target="_blank">
+                <br><br>
+                <div class="form-floating mb-5">
+                    <input type="text" class="form-control" id="floatingId" placeholder="ID">
+                    <label for="floatingId">Customer ID</label>
+                </div>
+                <div class="form-floating mb-5">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                    <label for="floatingName">Name</label>
+                </div>
+                <div class="form-floating mb-5">
+                    <input type="text" class="form-control" id="floatingContact" placeholder="Contact">
+                    <label for="floatingContact">Contact</label>
+                </div>
+                <div class="form-floating mb-5">
+                    <input type="text" class="form-control" id="floatingAdd" placeholder="Address">
+                    <label for="floatingAdd">Address</label>
+                </div>
+                <div id="divBtn" class="mt-3 mb-4">
+                    <button type="button" class="btn btn-outline-light btn-sm">Search</button>
+                    <button type="reset" class="btn btn-outline-light btn-sm">Reset</button>
+                    <button type="button" class="btn btn-outline-light btn-sm">Delete</button>
+                    <button type="button" class="btn btn-outline-light btn-sm">Save</button>
+                </div>
+            </form>
+            <!--            </div>-->
+        </div>
+        <div id="divTb" class="col col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Address</th>
+                </tr>
+                </thead>
+                <tbody id="stu_tBody">
+                <tr>
+                    <td scope="row">C001</td>
+                    <td>Mark</td>
+                    <td>@mdo</td>
+                    <td>Otto</td>
+                </tr>
+                <tr>
+                    <td scope="row">C002</td>
+                    <td>Jacob</td>
+                    <td>@fat</td>
+                    <td>Thornton</td>
+                </tr>
+                <tr>
+                    <td scope="row">C003</td>
+                    <td>Larry</td>
+                    <td>@twitter</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td scope="row">C004</td>
+                    <td>Tom</td>
+                    <td>@twitter</td>
+                    <td>USA</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
