@@ -65,3 +65,37 @@ form{
 button{
     /*padding: 5vw;*/
 }
+
+#id1{
+    color: white;
+    background-color: transparent;
+}
+
+#name{
+    color: white;
+    background-color: transparent;
+}
+
+#contact{
+    color: white;
+    background-color: transparent;
+}
+
+#address{
+    color: white;
+    background-color: transparent;
+}
+
+label{
+    color: white;
+    background-color: transparent;
+}
+
+#tb1{
+    background-color: transparent;
+
+}
+
+input{
+    color: white;
+}

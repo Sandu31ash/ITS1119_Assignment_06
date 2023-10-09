@@ -1,10 +1,11 @@
 body{
     background-color: #163051;
+    overflow-x: hidden;
 }
 
 form{
     position: relative;
-    top: 15vh;
+    top: 8vh;
     padding-left: 5vw;
     padding-right: 5vw;
 
@@ -17,6 +18,47 @@ form{
 table{
     position: relative;
     top: 12vh;
+}
+
+.form-control{
+    background-color: transparent;
+    color: white;
+}
+
+#total{
+    color: white;
+    background-color: transparent;
+    font-size: 2vw;
+    font-family: cursive;
+}
+
+#tot{
+    color: white;
+    font-size: 2vw;
+    position: relative;
+    left: 5vw;
+}
+
+/*#floatingId{*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*#floatingName{*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*#floatingContact{*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*#floatingAdd{*/
+/*    background-color: transparent;*/
+/*}*/
+
+
+label{
+    color: white;
+    background-color: transparent;
 }
 
 /*.row{*/

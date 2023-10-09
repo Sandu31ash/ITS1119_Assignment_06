@@ -66,6 +66,30 @@ button{
     /*padding: 5vw;*/
 }
 
+#code{
+    color: white;
+    background-color: transparent;
+}
+
+#item{
+    color: white;
+    background-color: transparent;
+}
+
+#price{
+    color: white;
+    background-color: transparent;
+}
+
+#qty{
+    color: white;
+    background-color: transparent;
+}
+
+label{
+    color: white;
+    background-color: transparent;
+}
 
 
 

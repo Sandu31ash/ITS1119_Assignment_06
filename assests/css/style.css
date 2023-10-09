@@ -25,6 +25,7 @@ body{
     width: 200px;
     height: 100px;
     color: #163052;
+    font-weight: bolder;
 }
 
 #btnItem{
@@ -36,6 +37,7 @@ body{
     width: 200px;
     height: 100px;
     color: #163052;
+    font-weight: bolder;
 }
 
 #btnOrder{
@@ -47,6 +49,7 @@ body{
     width: 200px;
     height: 100px;
     color: #163052;
+    font-weight: bolder;
 }
 
 /*#btnItem {*/
@@ -58,4 +61,15 @@ body{
 #img1{
     position: absolute;
     top: 200vh;
+}
+
+
+@media all and (max-width: 768px){
+    #btnCus{
+        color: white;
+    }
+
+    #btnOrder{
+        color: white;
+    }
 }
