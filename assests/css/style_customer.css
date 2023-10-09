@@ -99,3 +99,13 @@ label{
 input{
     color: white;
 }
+
+.container>#imgCus{
+    opacity: 0;
+}
+
+@media all and (max-width: 768px){
+    #imgCus{
+        opacity: 0;
+    }
+}

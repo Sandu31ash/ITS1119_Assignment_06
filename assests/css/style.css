@@ -52,6 +52,21 @@ body{
     font-weight: bolder;
 }
 
+#btnCus:hover{
+    color: white;
+    background-color: #163052;
+}
+
+#btnItem:hover{
+    color: white;
+    background-color: #163052;
+}
+
+#btnOrder:hover{
+    color: white;
+    background-color: #163052;
+}
+
 /*#btnItem {*/
 /*    background-color: #163052; !* Set the background color to #163052 *!*/
 /*    border-color: #163052; !* Set the border color to #163052 *!*/
