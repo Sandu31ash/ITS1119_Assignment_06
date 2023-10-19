@@ -1,5 +1,6 @@
 body{
     background-color: #163052;
+    overflow-x: hidden;
 }
 
 /*#imgCus{*/
@@ -91,6 +92,25 @@ label{
     background-color: transparent;
 }
 
+#water{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30vw;
+}
+
+@media all and (max-width: 768px){
+    #imgItem{
+        display: none;
+    }
+
+    #water{
+        width: 60vw;
+    }
+}
 
 
 
